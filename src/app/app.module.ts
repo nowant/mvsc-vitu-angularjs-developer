@@ -1,15 +1,9 @@
 // temporary, until https://github.com/Microsoft/TypeScript/issues/10178 is implemented
 import * as angular from 'angular';
+import {AppComponent} from './app.component';
+import {SelectFormComponent} from './select-form.component';
 
-/**
- * Import Application Modules
- */
-import { moduleName as coreModule } from './core/core.module';
-import { moduleName as contactsModule } from './contacts/contacts.module';
-
-export const moduleName =
-  angular.module('application', [
-    coreModule,
-    contactsModule
-  ])
-  .name;
+export const moduleName = angular.module('application', [])
+    .component('app', AppComponent)
+    .component('selectForm', SelectFormComponent)
+    .name;
