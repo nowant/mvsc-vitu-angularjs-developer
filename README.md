@@ -1,7 +1,7 @@
 # mvsc-vitu-angularjs-developer
 
 ## Demo app
-To use this starter you can simply clone it to your prefered location by using
+To use this app you can simply clone it to your prefered location by using
 
 ```
  git clone https://github.com/nowant/mvsc-vitu-angularjs-developer.git <directory_name>
